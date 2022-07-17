@@ -2,10 +2,10 @@
 
 print("Rock, Paper, Scissors, Shoot!")
 
-print("Welcome to ROCK PAPER SCISSORS GAME")
-
 # USER INPUTS
 
+user_choice = input("Select 'Rock', 'Paper', 'Scissors':") 
+print(f"You chose: '{user_choice}'")
 
 
 # VALIDATE USER INPUTS
