@@ -1,10 +1,14 @@
 # this is the "game.py" file...
 
-print("Rock, Paper, Scissors, Shoot!")
+# dependencies
+
+import random
+
+print("Welcome 'Player One' to Rock, Paper, Scissors, Shoot!")
 
 # USER INPUTS
 
-user_choice = input("Select 'Rock', 'Paper', 'Scissors':") 
+user_choice = input("Please select 'Rock', 'Paper', 'Scissors':") 
 print(f"You chose: '{user_choice}'")
 
 
@@ -15,8 +19,10 @@ print(f"You chose: '{user_choice}'")
 
 # COMPUTER CHOICE
 
+options = ["Rock", "Paper", "Scissors"]
+computer_choice = random.choice(options)
 
-
+print(f"The computer chose: '{computer_choice}'")
 
 # DETERMINE THE WINNER
 
