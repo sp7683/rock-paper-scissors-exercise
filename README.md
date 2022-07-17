@@ -27,3 +27,9 @@ From within the virtual environment, demonstrate your ability to run the Python 
 
 python game.py
 If you see the "Rock, Paper, Scissors, Shoot!" message, you're ready to move on to project development. 
+
+
+here's a shell command/terminal command:
+```sh
+python game.py
+```
