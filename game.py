@@ -24,22 +24,26 @@ computer_choice = random.choice(options)
 
 print(f"The computer chose: '{computer_choice}'")
 
-# DETERMINE THE WINNER
+# DETERMINE THE WINNER AND DISPLAY RESULTS
 
+if user_choice == computer_choice:
+    print("You tied!")
+elif user_choice == "Rock":
+    if computer_choice == "Scissors":
+        print("Rock crushes scissors. You win!")
+    else:
+        print("Paper covers rock. You lose.")
+elif user_choice == "Paper":
+    if computer_choice == "Rock":
+        print("Paper covers rock. You win!")
+    else:
+        print("Scissors cuts paper. You lose.")
+elif user_choice == "Scissors":
+    if computer_choice == "Paper":
+        print("Scissors cuts paper. You win!")
+    else:
+        print("Rock crushes scissors. You lose.")
 
+# GOODBYE
 
-
-# DISPLAY RESULTS
-
-#
-#-------------------
-#Welcome 'Player One' to my Rock-Paper-Scissors game...
-#-------------------
-#Please choose either 'rock', 'paper', or 'scissors': rock
-#You chose: 'rock'
-#The computer chose: 'paper'
-#-------------------
-#Oh, the computer won. It's ok.
-#-------------------
-#Thanks for playing. Please play again!
-#
+print("Thanks 'Player One' for playing Rock, Paper, Scissors, Shoot! Please play again.")
