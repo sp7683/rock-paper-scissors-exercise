@@ -18,8 +18,12 @@ NOTE: if you want, you could do this exercise in the "base" environment! Otherwi
 
 Create and activate a new project-specific Anaconda virtual environment:
 
+```
 conda create -n my-game-env python=3.8 # (first time only)
+
 conda activate my-game-env
+```
+
 From within the virtual environment, run the Python script from the command-line.
 
 ## Running the Game
