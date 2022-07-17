@@ -16,7 +16,7 @@ print(f"You chose: '{user_choice}'")
 # VALIDATE USER INPUTS
 options = ["Rock", "Paper", "Scissors"]
 if user_choice not in options:
-    print("Invalid Choice. Please play again with a valid choice.")
+    print("Invalid choice. Please play again with a valid choice.")
     exit()  #quit
 
 # COMPUTER CHOICE
